@@ -1,4 +1,4 @@
-package com.watchtime.VideoHandler;
+package PrivoMon.VideoHandler;
 
 public class VideoActionMessage {
 

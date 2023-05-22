@@ -1,4 +1,4 @@
-package com.watchtime.VideoHandler;
+package PrivoMon.VideoHandler;
 
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
