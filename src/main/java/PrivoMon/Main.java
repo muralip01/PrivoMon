@@ -5,6 +5,8 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @SpringBootApplication
 public class Main {
@@ -16,3 +18,4 @@ public class Main {
         return new ObjectMapper().disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
     }
 }
+
